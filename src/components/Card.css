@@ -58,9 +58,10 @@
 .bi-teInvito {
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-weight: 200;
+    font-weight: bold;
     text-align: center;
     font-size: 22px;
+    animation: x 3s ease-in-out infinite;
 }
 
 .bi-nombreText {
