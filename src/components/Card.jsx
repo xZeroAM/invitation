@@ -3,6 +3,7 @@ import './Card.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import confetti from "canvas-confetti"
 import CountdownTimer from './CountdownTimer'
+import { useEffect } from 'react'
 
 export const Card = () => {
 
@@ -10,6 +11,10 @@ export const Card = () => {
         confetti()
         confetti()
     }
+
+    useEffect(()=>{
+        confetti();
+    },[]);
 
     return (
         <section className='bi-container'>
