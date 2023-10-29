@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Oswald:wght@700&family=Roboto:wght@300;400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.bi-temporizador {
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+}
+
+.bi-temporizadorTitulo {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
+}
+
+@media (width <= 400px) {
+    .bi-temporizadorTitulo {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        font-size: 35px;
+    }
+
+    .bi-temporizador {
+        font-size: 20px;
+    }
+}
+
+@media (height <=720px) {
+    @media (width <=540px) {
+        .bi-temporizadorTitulo {
+            margin-top: 20px;
+            font-size: 35px;
+        }
+
+        .bi-temporizador {
+            font-size: 20px;
+        }
+    }
+}
